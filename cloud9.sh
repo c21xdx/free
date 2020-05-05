@@ -13,4 +13,4 @@ curl -sL https://ibm.biz/idt-installer | bash
 curl https://get.okteto.com -sSfL | sh
 # 安装flyctl
 curl -L https://getfly.fly.dev/install.sh | sh
-rclone copy gdrive:mycloud9 /c9ws/ --config /etc/c9conf/rclone.conf
+rclone copy gdrive:mycloud9 /c9ws/ --config /etc/c9conf/my.conf
