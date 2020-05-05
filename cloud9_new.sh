@@ -1,8 +1,6 @@
 #!/bin/sh
 
 apt-get update
-# 安装rclone
-curl https://rclone.org/install.sh | sudo bash
 # 安装 cf cli
 curl -L "https://packages.cloudfoundry.org/stable?release=linux64-binary&source=github" | tar -zx
 mv cf /usr/local/bin
