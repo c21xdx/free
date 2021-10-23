@@ -1,6 +1,17 @@
 #!/bin/sh
+apt-get update
+# 安装 CF CLI
+curl -L "https://packages.cloudfoundry.org/stable?release=linux64-binary&source=github" | tar -zx
+mv cf /usr/local/bin
+sudo curl -o /usr/share/bash-completion/completions/cf https://raw.githubusercontent.com/cloudfoundry/cli/master/ci/installers/completion/cf
+# 安装 IBM Cloud CLI
+curl -sL https://ibm.biz/idt-installer
+#安装 Okteto CLI
+bash && curl https://get.okteto.com -sSfL
+#安装Flyio CLI
+curl -L https://fly.io/install.sh | FLYCTL_INSTALL=/usr/local sh
 
-# GD拷回
+# GD备份回来
 output=`rclone copy gdrive:mycloud9 /c9ws/ --config /etc/c9conf/gd.conf`
 #设置crontab
 env >> /etc/default/locale
