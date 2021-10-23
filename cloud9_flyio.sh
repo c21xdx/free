@@ -7,7 +7,7 @@ sudo curl -o /usr/share/bash-completion/completions/cf https://raw.githubusercon
 # 安装 IBM Cloud CLI
 curl -sL https://ibm.biz/idt-installer | bash
 #安装 Okteto CLI
-curl https://get.okteto.com -sSfL
+curl https://get.okteto.com -sSfL | sh
 #安装Flyio CLI
 curl -L https://fly.io/install.sh | FLYCTL_INSTALL=/usr/local sh
 
