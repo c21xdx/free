@@ -10,6 +10,8 @@ curl -sL https://ibm.biz/idt-installer | bash
 curl https://get.okteto.com -sSfL | sh
 #安装Flyio CLI
 curl -L https://fly.io/install.sh | FLYCTL_INSTALL=/usr/local sh
+#安装railway CLI
+sh -c "$(curl -sSL https://raw.githubusercontent.com/railwayapp/cli/master/install.sh)"
 
 # GD备份回来
 output=`rclone copy gdrive:mycloud9 /c9ws/ --config /etc/c9conf/gd.conf`
