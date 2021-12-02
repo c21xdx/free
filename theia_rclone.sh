@@ -9,6 +9,6 @@ output=`rclone copy gdrive:theiaide/GoCode /home/project/Gocode --config /etc/go
 #设置crontab
 env >> /etc/default/locale
 touch /var/spool/cron/crontabs/root
-echo "*/3 * * * * rclone sync /home/project/GoCode gdrive:theiaide/GoCode --max-size 1M --transfers=1 --config /etc/goconf/gd.conf >/dev/null 2>&1" >>/var/spool/cron/crontabs/root
+echo "*/5 * * * * rclone sync /home/project/GoCode gdrive:theiaide/GoCode --max-size 1M --transfers=1 --config /etc/goconf/gd.conf >/dev/null 2>&1" >>/var/spool/cron/crontabs/root
 chmod 600 /var/spool/cron/crontabs/root
 service cron restart
