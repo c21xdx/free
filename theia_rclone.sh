@@ -5,7 +5,7 @@ apt-get update
 curl -fsSL https://go.dev/dl/go1.17.3.linux-amd64.tar.gz | tar -C /home -xzv
 
 # GD备份回来
-output=`rclone copy gdrive:theiaide/GoCode /home/project/Gocode --config /etc/goconf/gd.conf`
+output=`rclone copy gdrive:theiaide/GoCode /home/project/GoCode --config /etc/goconf/gd.conf`
 
 #设置crontab
 env >> /etc/default/locale
