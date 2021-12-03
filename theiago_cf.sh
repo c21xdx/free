@@ -22,5 +22,6 @@ dpkg -i cloudflared-linux-amd64.deb
 rm -rf /home/project/cf/cloudflared-linux-amd64.deb
 mkdir -p ~/.cloudflared/
 touch ~/.cloudflared/cert.pem
-echo "${{ secrets.CFTUNNEL_CERT }} >/dev/null 2>&1" >>~/.cloudflared/cert.pem
+echo "certinfo" >>~/.cloudflared/cert.pem
+sed -i "s/certinfo/${{ secrets.CFTUNNEL_CERT }}" ~/.cloudflared/cert.pem
 nohup cloudflared tunnel --${{ secrets.CF_DOMAIN }} --url localhost:${{ secrets.CF_PORT }} &
