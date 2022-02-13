@@ -9,7 +9,7 @@ curl -sL https://ibm.biz/idt-installer | bash
 #安装 Okteto CLI
 curl https://get.okteto.com -sSfL | sh
 #安装Flyio CLI
-curl -L https://fly.io/install.sh | sh
+curl -L https://fly.io/install.sh | FLYCTL_INSTALL=/usr/local sh
 #安装railway CLI
 sh -c "$(curl -sSL https://raw.githubusercontent.com/railwayapp/cli/master/install.sh)"
 
