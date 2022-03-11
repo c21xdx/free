@@ -5,7 +5,7 @@ curl -L "https://packages.cloudfoundry.org/stable?release=linux64-binary&source=
 mv cf /usr/local/bin
 sudo curl -o /usr/share/bash-completion/completions/cf https://raw.githubusercontent.com/cloudfoundry/cli/master/ci/installers/completion/cf
 # 安装 IBM Cloud CLI
-curl -sL https://ibm.biz/idt-installer | bash
+curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
 #安装 Okteto CLI
 curl https://get.okteto.com -sSfL | sh
 #安装Flyio CLI
