@@ -11,7 +11,7 @@ curl https://get.okteto.com -sSfL | sh
 #安装Flyio CLI
 curl -L https://fly.io/install.sh | FLYCTL_INSTALL=/usr/local sh
 #安装railway CLI
-sh -c "$(curl -sSL https://raw.githubusercontent.com/railwayapp/cli/master/install.sh)"
+curl -fsSL https://railway.app/install.sh | sh
 
 #设置crontab
 env >> /etc/default/locale
