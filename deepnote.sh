@@ -55,7 +55,7 @@ if [[ $yesno =~ "Y"|"y" ]]; then
 		"settings": {
 			"method": "aes-128-gcm",
 			"ota": false,
-			"password": "loudi123",
+			"password": "pass123",
 			"level": 0,
 			"network": "tcp,udp"
 		},
