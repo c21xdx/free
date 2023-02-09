@@ -1,0 +1,27 @@
+{
+	"log": {
+		"loglevel": "none"
+	},
+
+	"inbounds": [{
+		"port": 8080,
+		"protocol": "shadowsocks",
+		"settings": {
+			"method": "aes-128-gcm",
+			"ota": false,
+			"password": "pass123",
+			"level": 0,
+			"network": "tcp,udp"
+		},
+		"streamSettings": {
+			"network": "ws",
+			"wsSettings": {
+				"path": "/qwe"
+			}
+		}
+	}],
+	"outbounds": [{
+		"protocol": "freedom",
+		"settings": {}
+	}]
+}
