@@ -1,18 +1,9 @@
 #!/bin/sh
 apt-get update
-# 安装 CF CLI
-curl -L "https://packages.cloudfoundry.org/stable?release=linux64-binary&source=github" | tar -zx
-mv cf /usr/local/bin
-sudo curl -o /usr/share/bash-completion/completions/cf https://raw.githubusercontent.com/cloudfoundry/cli/master/ci/installers/completion/cf
-# 安装 IBM Cloud CLI
-# curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
-curl -sL https://ibm.biz/idt-installer | bash
 #安装 Okteto CLI
 curl https://get.okteto.com -sSfL | sh
 #安装Flyio CLI
 curl -L https://fly.io/install.sh | FLYCTL_INSTALL=/usr/local sh
-#安装railway CLI
-curl -fsSL https://railway.app/install.sh | sh
 
 #设置crontab
 env >> /etc/default/locale
