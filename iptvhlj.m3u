@@ -1,6 +1,4 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
-#EXTINF:-1 tvg-name="//PLTV ottrrs.hl.chinamobile.com/PLTV" tvg-logo="https://live.fanmingming.cn/tv///PLTV ottrrs.hl.chinamobile.com/PLTV.png" group-title="央视",//PLTV ottrrs.hl.chinamobile.com/PLTV
-undefined
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="央视",CCTV-1 综合
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.cn/tv/CCTV2.png" group-title="央视",CCTV-2 财经
@@ -45,12 +43,6 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225604/index.m3u8
 #EXTINF:-1 tvg-name="CGTN-纪录" tvg-logo="https://live.fanmingming.cn/tv/CGTN-纪录.png" group-title="央视",CGTN-纪录
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225602/index.m3u8
-#EXTINF:-1 tvg-name="//网址" tvg-logo="https://live.fanmingming.cn/tv///网址.png" group-title="卫视",//网址
-undefined
-#EXTINF:-1 tvg-name="亚洲卫视" tvg-logo="https://live.fanmingming.cn/tv/亚洲卫视.png" group-title="卫视",亚洲卫视
-https://p2hs.vzan.com/slowlive/821481626725612417/live.m3u8
-#EXTINF:-1 tvg-name="//ottrrs.hl.chinamobile.com/PLTV" tvg-logo="https://live.fanmingming.cn/tv///ottrrs.hl.chinamobile.com/PLTV.png" group-title="卫视",//ottrrs.hl.chinamobile.com/PLTV
-undefined
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://live.fanmingming.cn/tv/安徽卫视.png" group-title="卫视",安徽卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://live.fanmingming.cn/tv/安徽卫视.png" group-title="卫视",安徽卫视
@@ -151,8 +143,6 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
 #EXTINF:-1 tvg-name="康巴卫视" tvg-logo="https://live.fanmingming.cn/tv/康巴卫视.png" group-title="卫视",康巴卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8
-#EXTINF:-1 tvg-name="//ottrrs.hl.chinamobile.com/PLTV" tvg-logo="https://live.fanmingming.cn/tv///ottrrs.hl.chinamobile.com/PLTV.png" group-title="地方频道",//ottrrs.hl.chinamobile.com/PLTV
-undefined
 #EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://live.fanmingming.cn/tv/黑莓电影.png" group-title="地方频道",黑莓电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 #EXTINF:-1 tvg-name="黑莓动画" tvg-logo="https://live.fanmingming.cn/tv/黑莓动画.png" group-title="地方频道",黑莓动画
@@ -181,12 +171,6 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226424/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江-影视" tvg-logo="https://live.fanmingming.cn/tv/黑龙江-影视.png" group-title="地方频道",黑龙江-影视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226365/index.m3u8
-#EXTINF:-1 tvg-name="//网页" tvg-logo="https://live.fanmingming.cn/tv///网页.png" group-title="数字电视",//网页
-undefined
-#EXTINF:-1 tvg-name="Bread TV面包台" tvg-logo="https://live.fanmingming.cn/tv/Bread TV面包台.png" group-title="数字电视",Bread TV面包台
-https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-name="//ottrrs.hl.chinamobile.com" tvg-logo="https://live.fanmingming.cn/tv///ottrrs.hl.chinamobile.com.png" group-title="数字电视",//ottrrs.hl.chinamobile.com
-undefined
 #EXTINF:-1 tvg-name="NewTV爱情喜剧" tvg-logo="https://live.fanmingming.cn/tv/NewTV爱情喜剧.png" group-title="数字电视",NewTV爱情喜剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
 #EXTINF:-1 tvg-name="NewTV超级电视剧" tvg-logo="https://live.fanmingming.cn/tv/NewTV超级电视剧.png" group-title="数字电视",NewTV超级电视剧
